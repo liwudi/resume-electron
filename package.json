@@ -1,0 +1,38 @@
+{
+  "name": "resume-electron",
+  "version": "1.0.0",
+  "description": "桌面版的个人简历",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liwudi/resume-electron.git"
+  },
+  "keywords": [
+    "resume",
+    "electron"
+  ],
+  "author": "mapbar_front",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liwudi/resume-electron/issues"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "homepage": "https://github.com/liwudi/resume-electron#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.1.0",
+    "ghooks": "^2.0.4",
+    "git-cz": "^4.3.1",
+    "validate-commit-msg": "^2.14.0"
+  }
+}
