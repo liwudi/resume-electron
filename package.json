@@ -41,7 +41,7 @@
   "homepage": "https://github.com/liwudi/resume-electron#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.1.0",
-    "electron": "^8.0.2",
+    "electron": "^13.6.6",
     "electron-builder": "^22.3.2",
     "ghooks": "^2.0.4",
     "git-cz": "^4.3.1",
